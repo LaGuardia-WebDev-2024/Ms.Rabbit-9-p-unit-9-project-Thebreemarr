@@ -1,5 +1,5 @@
 setup = function() {
-    size(600, 400);
+    size(850, 600);
 };
 
 //Background Images
@@ -11,54 +11,52 @@ var MsRabbit2= loadImage("https://img.freepik.com/premium-photo/woman-bunny-cost
 
 var flowerField= loadImage ("https://images.unsplash.com/photo-1503155402538-58aa259a5b3a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
 
-var image1 =loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/Ms%20rabbit%201.jpeg?v=1741106771132")
+var image1 =loadImage ("Images/imageK.JPG")
 
-var image2= loadImage("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/Ms%20Rabbit%202.jpeg?v=1741193391212")
+var image2= loadImage("Images/image1.JPG")
 
-var image3= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/Ms%20Rabbit%203.jpeg?v=1741193551903")
+var image4= loadImage ("Images/image4.JPG")
 
-var image4= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7787.jpeg?v=1741228327302")
+var image5= loadImage ("Images/image5.JPG")
 
-var image5= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7735.jpeg?v=1741209979197")
+var key2= loadImage ("Images/image2.JPG")
 
-var key2= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7777.jpeg?v=1741228836206")
+var key3= loadImage ("Images/image3.JPG")
 
-var key3= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7780.jpeg?v=1741228585369")
+var imageE= loadImage ("Images/imageE.JPG")
 
-var imageE= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7741.jpeg?v=1741210070713")
+var imageF= loadImage ("Images/imageF.JPG")
 
-var imageF= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7747.jpeg?v=1741210691145")
+var imageG= loadImage ("Images/imageG.JPG")
 
-var imageG= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7765.jpeg?v=1741210832810")
+var imageL= loadImage ("Images/imageL.JPG")
 
-var imageL= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7753.jpeg?v=1741211075515")
-
-var imageM= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7784.jpeg?v=1741228277443")
+var imageM= loadImage ("Images/imageM.JPG")
 
 var imageN= loadImage
-("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7785.jpeg?v=1741228213283")
+("Images/imageN.JPG")
 
-var imageY= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7770.jpeg?v=1741228995060")
+var imageY= loadImage ("Images/imageY.png")
 
-var imageU= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7771.jpeg?v=1741229101884")
+var imageU= loadImage ("Images/imageU.JPG")
 
-var imageQ= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7807.jpeg?v=1741274943854")
+var imageQ= loadImage ("Images/imageQ.JPG")
 
-var imageX= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7789.jpeg?v=1741229642896")
+var imageX= loadImage ("Images/imageX.JPG")
 
-var imageD= loadImage("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7794.jpeg?v=1741275029039")
+var imageD= loadImage("Images/imageD.JPG")
 
-var imageO= loadImage("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7798.jpeg?v=1741275114013")
+var imageO= loadImage("Images/imageO.JPG")
 
-var imageR=loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7797.jpeg?v=1741275229954")
+var imageR=loadImage ("Images/imageR.JPG")
 
-var image8= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7806.jpeg?v=1741275432774")
+var image8= loadImage ("Images/image8.JPG")
 
-var image6= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7798.jpeg?v=1741275114013")
+var image6= loadImage ("Images/imageO.JPG")
 
-var image7= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7799.jpeg?v=1741275571374")
+var image7= loadImage ("Images/image7.JPG")
 
-var imageT= loadImage ("https://cdn.glitch.global/a78ab0ea-cd21-4cd5-b9d0-f94c7ceaaff6/IMG_7810.jpg?v=1741276565685")
+var imageT= loadImage ("Images/imageT.JPG")
 
 var textColor= color (random(200,250))
 
@@ -201,15 +199,15 @@ draw = function(){
 }; 
 
 var drawScene = function(){ 
-    image(sceneImage, 0, 0,600,400);
+    image(sceneImage, 0, 0,850,600);
     if(sceneText!="no"){
      fill(0,0,0);
-    rect(0, 350, 700, 100);
+    rect(0, 520, 600, 100);
       
     fill(textColor);
     textSize(20);
    
-   text(sceneText, 10, 375);
+   text(sceneText, 10, 550);
     
     }
    

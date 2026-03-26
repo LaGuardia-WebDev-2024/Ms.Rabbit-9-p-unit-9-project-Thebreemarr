@@ -5,6 +5,7 @@ body {
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
+   
 }
 
 h1, h3{
@@ -15,9 +16,15 @@ h1, h3{
   color: red;
 }
 #myCanvas {
-  background-size: 600px 400px;
-  border-radius: 30px;
+  background-size: 1200px 1000px;
+  border-radius: 40px;
   border: 5px solid white;
+  
+}
+img {
+  width: 800px
+  height: 600px
+  object-fit: contain;
 }
 
 

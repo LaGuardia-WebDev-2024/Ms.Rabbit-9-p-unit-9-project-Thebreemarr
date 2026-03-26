@@ -1,5 +1,6 @@
 setup = function() {
     size(400, 400);
+    object-fit: contain;
 };
 
 var answer = 1;
@@ -22,5 +23,3 @@ draw = function(){
 mouseClicked = function(){
   answer = round(random(1, 5));
 };
-
-
